@@ -21,5 +21,5 @@ class String
   def count_sentences
     return self.scan(/[.!?;]/).count
   end
-
+binding.pry
 end
