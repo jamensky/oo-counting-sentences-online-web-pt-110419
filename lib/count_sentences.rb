@@ -19,7 +19,7 @@ class String
   end
 
   def count_sentences
-    binding.pry
+    #binding.pry
     self.split(/[.!?;]/).delete_it{|sentence| sentence == 0 }.count
   end
 end
