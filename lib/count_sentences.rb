@@ -20,6 +20,6 @@ class String
 
   def count_sentences
     #binding.pry
-    self.split(/[.!?;]/).delete_it{|sentence| sentence == 0 }.count
+    self.split(/[.!?;]/).delete_if{|sentence| sentence == 0 }.count
   end
 end
